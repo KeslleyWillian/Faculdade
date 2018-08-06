@@ -1,0 +1,46 @@
+.:breakpoints:
+    - "col-xs-12" = extreme small
+    - "col-sm-12" = sony small
+    - "col-md-12" = middle
+    - "col-lg-12" = large
+    - "col-xl-12" = extreme large
+
+.:formatação de texto - cores
+    - "text-danger" = vermelho perigo
+    - "text-primary" = azul twiter
+    - "text-secondary" = cinza
+
+.:formatação de texto - background
+    - "bg-light
+
+.:formatação de texto - alinhamento
+    - "text-left" 
+    - "text-center" 
+    - "text-right" 
+
+.:formatação de texto - marge e padding
+    - "mr-1" = margem direita
+    - "py-5" = padding superior e inferior (vide plano cartesiano)
+
+.:botoes
+    - "btn btn-primary" = caixa azul com bordas arredondads
+    - "btn btn-outline-primary" = caixa vazada com bordas arredondadas
+    - "btn btn-sm-12 btn-primary" = caixa vazada com bordas arredondadas
+	<button type = "submit">
++Pode ser <button> ou <a> 
+
+
+.:formulários
+    - <label class="form-control" for="user>user: </label>
+    - <input class="form-control" id="user" type="text" </input>
++não esquecer do <form> é brigatóro no HTML c:
+
+
+
+
+
++Container em margens = "container-fluid"
++ baixar jquery 3.3.1.slim = mais leve
++ \\  \\ Bootstrap Source
+
++ "rem" é uma unidade de medida relativa à unidade de medida d browser
