@@ -15,7 +15,7 @@
         <div class="main-navbar">
             <div class="collapse" id="main-navbar-toggle">
               <div class="bg-danger p-4">
-                <h5 class="text-white h4">Digmon é melhor  :b</h5>
+                <h5 class="text-white h4"><i class="far fa-cube"></i>Digmon é melhor  :b</h5>
                 <span class="text-muted">...</span>
               </div>
             </div>
@@ -29,20 +29,17 @@
     </div>
 
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 p-4">
-                <form action="">
-                    <div class="form-group">
-                        <div class="input-group">
-                            <input placeholder="Nome do pokemon" class="form-control" type="search">
-                            <div class="input-group-append">
-                                <button class="btn btn-secondary text-light" href="#">Pesquisar</button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
+    <div class="row">
+        <div class="col-12 p-4">
+            <div class="input-group">
+                <input name="pesquisa" id="pesquisa" placeholder="Nome do aluno" class="form-control" type="search">
+                <div class="input-group-append">
+                    <button class="btn btn-success text-light" onclick="Pesquisa();"><i class="icon-prepend fa fa-search"></i>Pesquisar</button>
+                    <button class="btn btn-primary text-light" style="width:90px;" name="ok"><i class="icon-prepend fa fa-plus"></i> Novo</button>
+                </div>  
+            </div> 
         </div>
+    </div>
 
         <div class="row">
             

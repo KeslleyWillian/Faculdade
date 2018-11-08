@@ -1,0 +1,12 @@
+Webpack é basicamente um gerenciador de pacotes ...durr!
+
+npm init
+composer
+npm install laravel-mix
+npm instal cross-env
+
+//Para atualizar--- npm update
+		    npm install
+
+
+
